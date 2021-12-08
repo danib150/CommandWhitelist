@@ -14,7 +14,7 @@ import java.util.List;
 
 public class Listeners implements Listener {
 
-    private List<String> allowedCommands = CommandWhitelist.getInstance().getConfig().getStringList("");
+    private List<String> allowedCommands = CommandWhitelist.getInstance().getConfig().getStringList("commands");
 
     private final String bypass = "commandwhitelist.bypass";
 
