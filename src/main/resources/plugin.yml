@@ -4,3 +4,12 @@ main: it.dbruni.commandwhitelist.CommandWhitelist
 api-version: 1.18
 authors: [ dbruni ]
 description: Command Whitelist Plugin
+commands:
+  commandwhitelist:
+    description: Reload plugin configuration
+    permission: commandwhitelist.reload
+    aliases:
+      - cmdw
+      - cmdwhitelist
+      - cmwhitelist
+      - cmw
