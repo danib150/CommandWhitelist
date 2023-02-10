@@ -1,6 +1,0 @@
-name: CommandWhitelist
-version: '1.0-SNAPSHOT'
-main: it.dbruni.commandwhitelist.CommandWhitelist
-api-version: 1.18
-authors: [ dbruni ]
-description: Command Whitelist Plugin

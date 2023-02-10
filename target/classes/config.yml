@@ -1,7 +1,0 @@
-#############################
-##### Command Whitelist #####
-#############################
-
-commands:
-  - "/command"
-message: "&fUnknown Command, type /help."
