@@ -1,5 +1,5 @@
 name: CommandWhitelist
-version: 'dbruni'
+version: '1.1.0'
 main: it.dbruni.commandwhitelist.CommandWhitelist
 api-version: 1.18
 authors: [ dbruni ]
