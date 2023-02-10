@@ -16,8 +16,8 @@ public class ReloadCommand implements CommandExecutor {
         if (!(sender instanceof Player)) return true;
         Player player = (Player) sender;
         if (player.hasPermission("commandwhitelist.reload")) {
-            player.sendMessage(ChatColor.YELLOW + "[CommandWhitelist] Plugin been reloaded");
-            CommandWhitelist.getInstance().reloadConfig();
+            player.sendMessage(ChatColor.YELLOW + "Plugin been reloaded");
+            CommandWhitelist.getInstance().getSettingsManager().reload();
         }
         return true;
     }
